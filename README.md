@@ -27,8 +27,7 @@ Installs mongo db
       task => 'install mongo db',
       plugin => 'mongodb',
       parameters => %()
-      
-    )
+    );
 
 # Platforms supported
 

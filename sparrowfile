@@ -1,0 +1,14 @@
+use v6;
+
+use Sparrowdo;
+
+set_spl %(
+
+  mongodb => 'https://github.com/melezhik/mongodb.git'
+);
+
+task_run %(
+  task => 'install mongo db',
+  plugin => 'mongodb',
+  parameters => %()
+);
